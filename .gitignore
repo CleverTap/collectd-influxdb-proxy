@@ -1,0 +1,5 @@
+Gemfile.lock
+.idea/*
+config.yml
+logs/*
+nohup.out

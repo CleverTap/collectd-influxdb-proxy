@@ -1,0 +1,27 @@
+development:
+  proxy_bind_ip: '0.0.0.0'
+  proxy_bind_port: '9090'
+  log_level: 0
+  influxdb_host: '192.168.10.100'
+  influxdb_port: '8086'
+  influxdb_database: 'company_system_events'
+  influxdb_username: 'collectd'
+  influxdb_password: 'collectd'
+test:
+  proxy_bind_ip: '0.0.0.0'
+  proxy_bind_port: '9090'
+  log_level: 0
+  influxdb_host: '192.168.10.100'
+  influxdb_port: '8086'
+  influxdb_database: 'company_system_events'
+  influxdb_username: 'collectd'
+  influxdb_password: 'collectd'
+production:
+  proxy_bind_ip: '0.0.0.0'
+  proxy_bind_port: '9090'
+  log_level: 4
+  influxdb_host: '192.168.10.100'
+  influxdb_port: '8086'
+  influxdb_database: 'company_system_events'
+  influxdb_username: 'collectd'
+  influxdb_password: 'collectd'
